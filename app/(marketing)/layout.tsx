@@ -1,4 +1,5 @@
 import { Navbar } from "./_components/Navbar";
+import { Footer } from "./_components/Footer";
 
 const MarketingPage=({children}:{children:React.ReactNode})=>{
     return(
@@ -7,6 +8,7 @@ const MarketingPage=({children}:{children:React.ReactNode})=>{
             <main className="pt-48 pb-20 bg-slate-100">
                  {children}
             </main> 
+            <Footer></Footer>
         </div>
     )
 }
